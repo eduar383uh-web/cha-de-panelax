@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Chá de Panela - Fernanda & Eduardo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fffaf5;
+      padding: 20px;
+      max-width: 700px;
+      margin: auto;
+      line-height: 1.6;
+    }
+    h1, h2 {
+      color: #b76e79;
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+    .button {
+      background: #b76e79;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 10px;
+    }
+    .pix-box {
+      font-size: 16px;
+      background: #fef2f2;
+      padding: 15px;
+      border-left: 4px solid #b76e79;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Chá de Panela – Fernanda & Eduardo</h1>
+
+  <div class="section">
+    <p><strong>Data:</strong> 15 de Novembro (sábado)<br>
+       <strong>Horário:</strong> 17h<br>
+       <strong>Local:</strong> Condomínio San Sebastian, Conj. A, Lote 18, Casa 2</p>
+    <a class="button" href="https://www.google.com/maps/search/?api=1&query=Condomínio+San+Sebastian+conj+A+lote+18+casa+2" target="_blank">📍 Ver no mapa</a>
+  </div>
+
+  <div class="section">
+    <h2>Confirme sua presença</h2>
+    <form onsubmit="event.preventDefault(); alert('Obrigada por confirmar sua presença! ❤️');">
+      <input type="text" placeholder="Seu nome" required>
+      <button class="button" type="submit">Confirmar</button>
+    </form>
+  </div>
+
+  <div class="section">
+    <h2>Pix</h2>
+    <p>Se preferir, você pode contribuir com nossa nova casa pelo Pix:</p>
+    <div class="pix-box">
+      <strong>Chave Pix:</strong><br>
+      <code>(61) 9 8302-1282</code><br>
+      <strong>Nome:</strong> Fernanda Ferreira de Albuquerque
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>🎁 Lista de Presentes</h2>
+    <p>Escolha um presente e confirme com os noivos para evitar repetições. 💕</p>
+    <ul>
+      <li>Liquidificador</li>
+      <li>Processador elétrico</li>
+      <li>Sanduicheira</li>
+      <li>Panela de pressão elétrica</li>
+      <li>Micro-ondas</li>
+      <li>Fogão</li>
+      <li>Chaleira elétrica</li>
+      <li>Jogo de panelas (mínimo 4 peças)</li>
+      <li>Jogo de pratos</li>
+      <li>Jogo de copos</li>
+      <li>Jarra</li>
+      <li>Panos de prato</li>
+      <li>Jogo de talher</li>
+      <li>Jogo de colher para cozinha</li>
+      <li>Batedeira</li>
+      <li>Escorredor de inox</li>
+      <li>Forno</li>
+      <li>Airfryer</li>
+      <li>Jogo de vasilhas</li>
+      <li>Porta mantimentos</li>
+      <li>Porta tempero</li>
+      <li>Jogo de cama queen</li>
+      <li>Coberta</li>
+      <li>Garrafa de café</li>
+      <li>Jogo de toalhas de banho</li>
+      <li>Ferro de passar</li>
+      <li>Filtro de água</li>
+      <li>Ventilador</li>
+      <li>Assadeiras</li>
+      <li>Panela de pressão convencional</li>
+      <li>Jogo de xícaras</li>
+      <li>Tábua de carne</li>
+      <li>Jogo de facas</li>
+      <li>Criado mudo</li>
+      <li>Kit de banheiro</li>
+      <li>Conjunto de tapetes para banheiro</li>
+      <li>Edredom</li>
+      <li>Tanquinho</li>
+      <li>Lixeira (banheiro)</li>
+      <li>Tapetes</li>
+      <li>Frigideiras</li>
+      <li>Moedor de temperos</li>
+      <li>Potes herméticos</li>
+      <li>Cuscuzeira</li>
+      <li>Cesto de roupas</li>
+      <li>Boleira</li>
+    </ul>
+  </div>
+
+</body>
+</html>
